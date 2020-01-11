@@ -13,7 +13,7 @@
     <form>
         <label for="city">City Search:</label>
         <input id="city" type="text">
-        <button>Search!</button>
+        <button id="submit" type="submit">Search!</button>
     </form>
 
     <div class="days" id="day1"></div>
@@ -22,15 +22,7 @@
     <div class="days" id="day4"></div>
     <div class="days" id="day5"></div>
     <script src='script.js'>
-        const url = `http://api.openweathermap.org/data/2.5/forecast?id=${cityInp}=e5e28d699069f90b230ad4d66e6a33b1`;
-        fetch(url)
-                .then(function(response) {
-                return response.json(); ///Need to do something with the object to fulfill the promise.
-
-            })
-            .then(function(json) {
-                
-            });
+        
     </script>
 </body>
 </html>
