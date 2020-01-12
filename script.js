@@ -40,7 +40,7 @@ submit.addEventListener('click', function(e) {
                 humid[0].textContent = json.list[0].main.humidity;
                 humid[1].textContent = json.list[9].main.humidity;
                 humid[2].textContent = json.list[18].main.humidity;
-                humid[3].textContent = json.list[27].main.humidhumid
+                humid[3].textContent = json.list[27].main.humidity;
                 humid[4].textContent = json.list[37].main.humidity;
 
                 let i1 = json.list[0].weather[0].icon;
@@ -48,7 +48,7 @@ submit.addEventListener('click', function(e) {
                 let i3 = json.list[18].weather[0].icon;
                 let i4 = json.list[27].weather[0].icon;
                 let i5 = json.list[37].weather[0].icon;
-                
+
                 let i1Url = "http://openweathermap.org/img/w/" + i1 + ".png";
                 let i2Url = "http://openweathermap.org/img/w/" + i2 + ".png";
                 let i3Url = "http://openweathermap.org/img/w/" + i3 + ".png";
