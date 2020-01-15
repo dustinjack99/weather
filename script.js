@@ -65,7 +65,6 @@ submit.addEventListener('click', function(e) {
             });
 })
 
-
 cityEnt.addEventListener('input', typeInp);
         
 function typeInp (e) {

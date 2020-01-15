@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h1>The Weather!</h1>
-    <h2>Enter the name of a city below!</h2>
-    <form>
-        <label for="city">City Search:</label>
-        <input id="city" type="text">
-        <button id="submit" type="submit">Search!</button>
-    </form>
+        <div class="header">
+            <h1>Five Day Forecast</h1>
+            <h2>Enter the name of a city below.</h2>
+            <form>
+                <label for="city">City Search:</label>
+                <input id="city" type="text">
+                <button id="submit" type="submit">Search!</button>
+            </form>
+        </div>
         <div id="allweather">
-            <div class="container">    
+            <div class="container">Today    
                 <div class="days" id="day1"></div>
                 <img class="icon" src="">
                 <div class="weather"></div>
@@ -24,7 +26,7 @@
                 <div class="humidity"></div>    
             </div>
 
-            <div class="container">        
+            <div class="container">Tomorrow        
                 <div class="days" id="day2"></div>
                 <img class="icon" src="">
                 <div class="weather"></div>
@@ -32,7 +34,7 @@
                 <div class="humidity"></div>
             </div>
 
-            <div class="container">
+            <div class="container">Day Three
                 <div class="days" id="day3"></div>
                 <img class="icon" src="">
                 <div class="weather"></div>
@@ -40,7 +42,7 @@
                 <div class="humidity"></div>
             </div>
 
-            <div class="container">
+            <div class="container">Day Four
                 <div class="days" id="day4"></div>
                 <img class="icon" src="">
                 <div class="weather"></div>
@@ -48,7 +50,7 @@
                 <div class="humidity"></div>
             </div>
 
-            <div class="container">
+            <div class="container">Day Five
                 <div class="days" id="day5"></div>
                 <img class="icon" src="">
                 <div class="weather"></div>
